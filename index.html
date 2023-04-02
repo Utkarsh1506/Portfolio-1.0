@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsve Portfolio Design | DDEV</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">DDEV.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+       
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Utkarsh Choudhary</h1>
+            <p> there! My name is Utkarsh Choudhary and I am a student pursuing B.Tech in computer science with specialization in Cyber Security.  I am excited to share my portfolio with you and showcase some of the projects I have worked on!</p>
+            <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Web Developer</h3>
+                </div>
+                   
+                <div class="profession" style="--i:1">
+                    <i class='bx bx-code-block'></i>
+                    <h3>Cybersecurity</h3>
+                </div>
+                 
+                <div class="profession" style="--i:2">
+                    <i class="bx bx-palette"></i>
+                    <h3>Web Designer</h3>
+                </div>
+                    
+                <div class="profession" style="--i:3">
+                    <i class="bx bx-video-recording"></i>
+                    <h3>Videographer</h3>
+                </div>
+                <div class="circle"></div>
+                    
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="images/testimonial.jpg" alt="">
+
+        </div>
+
+    </section>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/me.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here To Help Your Next Project!</h3>
+            <p> I believe that the key to creating effective and engaging websites lies in understanding the needs and preferences of users, and my approach to development always takes user experience into account. I am dedicated to using my skills to create websites that not only look great but also function smoothly and intuitively, making it easy for visitors to find what they're looking for and navigate through content</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor! Officia labore nesciunt molestias eum, temporibus, ex blanditiis consequatur enim repellat vitae illum eos quis repellendus deserunt maiores doloribus repudiandae.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-block'></i>
+                <h3>Cybersecurity</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor! Officia labore /[n8esciunt molestias eum, temporibus, ex blanditiis consequatur enim repellat vitae illum eos quis repellendus deserunt maiores doloribus repudiandae.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-palette' ></i>
+                <h3>Web Designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor! Officia labore nesciunt molestias eum, temporibus, ex blanditiis consequatur enim repellat vitae illum eos quis repellendus deserunt maiores doloribus repudiandae.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container row-cols-3 d-inline-flex">
+            <div class="portfolio-box col-md-3">
+                <img src="images/p7.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box col-md-3">
+                <img src="images/w1.jpg " alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        
+            <div class="portfolio-box col-md-3">
+                <img src="images/p.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-container row-cols-3 d-inline-flex">
+
+            <div class="portfolio-box col-md-3">
+                <img src="images/w3.jpg " alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+        
+        
+            <div class="portfolio-box col-md-3">
+                <img src="images/w4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box col-md-3">
+                <img src="images/p5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+       
+
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable<span>Testimonial</span></h2>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/adarsh.jpg" alt="">
+                        <h3>Adarsh Kumar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam natus nostrum molestias aut sit. Modi quo illum perferendis eum optio aut cupiditate. A at atque reiciendis ad! Error illum facere aperiam labore placeat odit explicabo? Reprehenderit animi nam incidunt, deserunt dolore eum! Itaque maiores, at pariatur, iste quibusdam, corrupti repellendus repellat doloremque amet earum tenetur iusto sint commodi numquam qui!</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/dk.jpg" alt="">
+                        <h3>Divyanshu Khandelwal</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam natus nostrum molestias aut sit. Modi quo illum perferendis eum optio aut cupiditate. A at atque reiciendis ad! Error illum facere aperiam labore placeat odit explicabo? Reprehenderit animi nam incidunt, deserunt dolore eum! Itaque maiores, at pariatur, iste quibusdam, corrupti repellendus repellat doloremque amet earum tenetur iusto sint commodi numquam qui!</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial.jpg" alt="">
+                        <h3>Akash Gola</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam natus nostrum molestias aut sit. Modi quo illum perferendis eum optio aut cupiditate. A at atque reiciendis ad! Error illum facere aperiam labore placeat odit explicabo? Reprehenderit animi nam incidunt, deserunt dolore eum! Itaque maiores, at pariatur, iste quibusdam, corrupti repellendus repellat doloremque amet earum tenetur iusto sint commodi numquam qui!</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by DDEV | All Right Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>    
+       
+    <script src="js/script.js"></script>
+</body>
+</html>
