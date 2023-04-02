@@ -554,6 +554,11 @@ transition: .5s ease;
     font-size: 2.4rem;
     color: #333;
 }
+#msg{
+    color: #61b752;
+    display: block; 
+    font-size: 20px;
+}
 
 
 /* Breakpoints */
@@ -572,6 +577,14 @@ transition: .5s ease;
     .home .profession-container .overlay{
         right: -9rem;
     }
+    .home-img img {
+        
+        left: 762px;
+        
+    }
+    .about{
+        margin-top: 11%;
+    }
     
 }
 
@@ -584,13 +597,21 @@ transition: .5s ease;
         padding: 10rem 3% 2rem; 
     }
     .home .profession-container .profession-box{
-        right: -22rem;
+        right: -19rem;
         
     }
     .home .profession-container .overlay{
         right: -15rem;
     }
-    
+    .home-img img{
+        width: 42rem;
+        height: 42rem;
+        left: 650px;
+        top: 190px;
+    }
+    .services{
+        margin-top: 10%;
+    }
 
 }
 @media (max-width: 991px){
@@ -612,9 +633,7 @@ transition: .5s ease;
     .home .profession-container .overlay{
         right: -39.5rem;
     }
-    .home-img img{
-        display: none;
-    }
+    
     .services,
     .portfolio{
         padding: 7rem;
@@ -625,14 +644,22 @@ transition: .5s ease;
     .footer{
         padding: 2rem 3%;
     }
+    .home-img img {
+       display: none;
+        
+    }
+    .navbar{
+        left: -4%;
+    }
 }
 @media (max-width: 768px){
     #menu-icon{
-        display: block;
+        display: flex;
+        right: 6rem;
     }
     #darkMode-icon{
         position:absolute;
-        right: 7rem;
+        right: 9rem;
         font-size: 2.6rem;
         color: var(--text-color);
         margin-bottom: .1rem;
@@ -657,6 +684,9 @@ transition: .5s ease;
         margin: 3rem 0;
         color: var(--text-color);
     }
+
+    
+
     .navbar a:nth-child(1),
     .navbar a:nth-child(2){
         color: var(--text-color);
@@ -665,12 +695,15 @@ transition: .5s ease;
         color: var(--main-color);
     }
     .navbar a::before{
-        display: none;
+        display: block;
     }
     .home{
         padding: 0 3% 23rem;
         justify-content: center;
         text-align: center;
+    }
+    .home .home-content{
+        margin-top: 8%;
     }
     .home-content h3{
         font-size: 2.6rem;
@@ -715,7 +748,7 @@ transition: .5s ease;
         height: 670px;
         z-index: -1;
     }
-    .home .portfolio-container .overlay{
+    .home .profession-container .overlay{
         position: fixed;
         top: 70rem;
         left: 50%;
@@ -754,6 +787,11 @@ transition: .5s ease;
     }
 }
 @media (max-width: 617px){
+
+    body{
+        display: block;
+    }
+
     .portfolio .portfolio-container{
         grid-template-columns: 1fr;
     }
