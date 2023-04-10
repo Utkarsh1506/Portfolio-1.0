@@ -838,3 +838,9 @@ transition: .5s ease;
         margin-top: 2rem;
     }
 }
+@media (max-width: 450px){
+    .home-img img{
+        left: 960px;
+        top: 148px;
+    }
+}
