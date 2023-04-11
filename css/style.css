@@ -795,6 +795,7 @@ transition: .5s ease;
     .portfolio .portfolio-container{
         grid-template-columns: 1fr;
     }
+   
 }
 @media (max-width: 450px){
     html{
@@ -826,21 +827,34 @@ transition: .5s ease;
         width: 100%;
     }
 }
-@media (max-width: 365px){
+@media (max-width: 335px){
     .about-img img{
         width: 90vw;
     }
+    .home .profession-container{
+        width: 225%;
+        height: 110%;
+        left: -6%;
+    }
     .footer{
-        flex-direction: column-reverse;
+        width: 225%;
     }
-    .footer p{
-        text-align: center;
-        margin-top: 2rem;
-    }
+    
 }
 @media (max-width: 450px){
     .home-img img{
         left: 960px;
         top: 148px;
+    }
+}
+@media (max-width: 600px){
+    .home .profession-container{
+        
+        left: -4;
+        width: 125%;
+        height: 100%;
+    }
+    .footer{
+        width: 125%;
     }
 }
